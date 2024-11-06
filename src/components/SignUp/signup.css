@@ -1,0 +1,129 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.signup-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    align-items: center;
+}
+
+.signup-box h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #202124;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.sup-input-group {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.sup-input-group input {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.sup-input-group label {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    color: #999;
+}
+
+.sup-input-group input:focus + label,
+.sup-input-group input.filled + label {
+    top: 0;
+    font-size: 12px;
+    background-color: white;
+    padding: 0 5px;
+}
+
+.sup-button {
+    width: 30%;
+    margin-left: 34%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sup-button:hover {
+    background-color: #166fe5;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.sup-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sup-footer a {
+    color: #cc238b;
+    text-decoration: none;
+}
+
+.sup-footer a:hover {
+    text-decoration: underline;
+}
+
+.sup-input-group select {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #202124;
+    font-size: 16px;
+    height: 40px;
+    padding: 8px 12px;
+    width: 45%;
+    margin: 0 auto;
+    transition: border-color 0.2s;
+}
+
+.sup-input-group select:focus {
+    border-color: #1a73e8;
+    outline: none;
+}
+
+.sup-input-group select + label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    font-size: 14px;
+    color: #5f6368;
+    transform: translateY(-50%);
+    transition: all 0.2s ease;
+}
+
+.success {
+    color: #4CAF50;
+    background-color: #E8F5E9;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+}

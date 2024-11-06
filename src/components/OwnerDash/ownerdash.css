@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Use a clean, sans-serif font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa; /* Light background color for contrast */
+}
+
+.owner-dashboard {
+    max-width: 1200px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the dashboard */
+    padding: 20px; /* Add padding around the dashboard */
+    background-color: #ffffff; /* White background for the dashboard */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Header Styles */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between; /* Space between title and greeting */
+    align-items: center; /* Center items vertically */
+    border-bottom: 2px solid #e0e0e0; /* Light border under header */
+    padding: 20px 30px; /* Increased padding for a more spacious layout */
+    background-color: #ffffff; /* White background for the header */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    font-size: 26px; /* Slightly larger font size for the title */
+    color: #333; /* Dark color for contrast */
+    margin: 0; /* Remove default margin */
+    font-weight: 600; /* Make the title bold */
+}
+
+.owner-greeting {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    gap: 15px; /* Space between greeting text and logout button */
+}
+
+.owner-greeting span {
+    font-size: 16px; /* Font size for greeting text */
+    color: #555; /* Slightly lighter color for contrast */
+}
+
+.logout-button {
+    background-color: #ff4757; /* Red color for logout button */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Increased padding for button */
+    font-size: 16px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.logout-button:hover {
+    background-color: #e84118; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Tab Header Styles */
+.tab-header {
+    display: flex;
+    justify-content: center; /* Center the tabs */
+    margin: 40px 0; /* Margin above and below tabs */
+}
+
+.tab-header button {
+    background-color: transparent; /* Make the background transparent */
+    color: #0c0c0c; /* Primary color for text */
+    border: none; /* No border */
+    border-bottom: 2px solid transparent; /* Add a bottom border for active state */
+    border-radius: 0; /* No rounded corners */
+    padding: 10px 15px; /* Padding for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 20px; /* Font size for better readability */
+    transition: color 0.3s, border-color 0.3s; /* Smooth transition for color and border */
+    margin: 0 10px; /* Margin between tabs */
+}
+
+.tab-header button.active {
+    color: #0056b3; /* Darker blue for active tab text */
+    border-color: #007bff; /* Blue border for active tab */
+}
+
+.tab-header button:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Error Message Styles */
+.error-message {
+    color: #ff4757; /* Red color for error messages */
+    margin: 10px 0; /* Margin above and below */
+}
+
+/* Form Styles */
+.add-property-form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    gap: 15px; /* Space between form elements */
+}
+
+.property-span {
+    display: flex;
+    gap: 15px;
+    flex: 1;
+    margin: 3px 8px;
+    align-items: center;
+}
+
+.add-prop input[type="text"],
+.add-prop input[type="number"],
+.add-prop textarea,
+.add-prop select {
+    padding: 10px; /* Inner padding for inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.add-prop input[type="text"]:focus,
+.add-prop input[type="number"]:focus,
+.add-prop textarea:focus,
+.add-prop select:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.add-prop button[type="submit"] {
+    background-color: #28a745; /* Green color for submit button */
+    color: white; /* White text */
+    border: none; /* No border */
+    font-size: 17px;
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s;
+    width:14%;
+    height:40px; /* Smooth transition */
+}
+
+.add-prop button[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.address {
+    width: 70%;
+    height: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.form-group label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold labels for emphasis */
+    color: #333; /* Dark color for contrast */
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+

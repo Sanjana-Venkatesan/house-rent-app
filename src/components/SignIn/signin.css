@@ -1,0 +1,127 @@
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f1f3f4;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.signin-box {
+    background-color: white;
+    margin-top: 0px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 24px 24px;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.signin-box h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #202124;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.sin-input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.sin-input-group input {
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    color: #202124;
+    font-size: 14px;
+    height: 40px;
+    padding: 8px 12px;
+    width: 90%;
+    transition: border-color 0.2s;
+    margin: 10px auto;
+}
+
+.sin-input-group input:focus {
+    border-color: #1a73e8;
+    outline: none;
+}
+
+.sin-input-group input:focus + label,
+.sin-input-group .filled {
+    top: -10px;
+    left: 12px;
+    font-size: 12px;
+    color: #171718;
+}
+
+.sin-input-group label {
+    position: absolute;
+    top: 50%;
+    left: 35px;
+    font-size: 14px;
+    color: #5f6368;
+    transform: translateY(-50%);
+    transition: all 0.2s ease;
+}
+
+.sin-button[type="submit"] {
+    background: linear-gradient(45deg, #1a73e8, #4a90e2);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    width: 25%;
+    padding: 0;
+    text-transform: uppercase;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    margin: 10px auto 0;
+    display: block;
+}
+
+.sin-button[type="submit"]:hover {
+    background: linear-gradient(45deg, #4a90e2, #1a73e8);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sin-button[type="submit"]:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sin-footer {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.sin-footer p {
+    margin-bottom: 5px;
+}
+
+.sin-footer a {
+    color: #e81a1a;
+    text-decoration: none;
+}
+
+.sin-footer a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: #d32f2f;
+    background-color: #ffebee;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+}

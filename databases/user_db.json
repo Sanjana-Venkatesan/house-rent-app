@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": "65ce",
+      "username": "kitty",
+      "email": "bargavivenkatesan528@gmail.com",
+      "password": "sgt",
+      "type": "Owner",
+      "granted": true
+    },
+    {
+      "id": "df58",
+      "username": "kitty",
+      "email": "bargavi@gmail.com",
+      "password": "1234",
+      "type": "Owner",
+      "granted": true
+    },
+    {
+      "id": "a70c",
+      "username": "ad1",
+      "email": "u1@gmail.com",
+      "password": "iamadmin",
+      "type": "Admin"
+    },
+    {
+      "id": "faa2",
+      "username": "ad1",
+      "email": "u1@gmail.com",
+      "password": "iamadmin",
+      "type": "Admin"
+    },
+    {
+      "id": "a28e",
+      "username": "kitty",
+      "email": "bargavi12@gmail.com",
+      "password": "12345",
+      "type": "Renter"
+    }
+  ],
+  "properties": [
+    {
+      "id": "9f6b",
+      "propertyType": "Apartment",
+      "propertyAddType": "New",
+      "address": "chennai",
+      "images": "https://th.bing.com/th/id/OIP.3rGjtKFlHBVn_nSYY52PrgHaGe?rs=1&pid=ImgDetMain",
+      "contactNumber": "09940448141",
+      "amount": "800000",
+      "additionalDetails": "none",
+      "ownerId": "df58"
+    },
+    {
+      "id": "b1ea",
+      "propertyType": "House",
+      "propertyAddType": "Resale",
+      "address": "chennai",
+      "images": "https://th.bing.com/th/id/OIP.3rGjtKFlHBVn_nSYY52PrgHaGe?rs=1&pid=ImgDetMain",
+      "contactNumber": "09940448141",
+      "amount": "800000",
+      "additionalDetails": "none",
+      "ownerId": "df58"
+    }
+  ],
+  "bookings": []
+}
